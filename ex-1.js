@@ -1,8 +1,11 @@
 //Exercise 1: Add Strings
 
-const addStrings = function (num1, num2) {
-  //Start coding here
+/* const addStrings = function (num1, num2) {
+  
 };
+*/
+
+const addStrings = (a, b) => `${+a + +b}`;
 
 const result1 = addStrings("11", "123");
 const result2 = addStrings("456", "77");
